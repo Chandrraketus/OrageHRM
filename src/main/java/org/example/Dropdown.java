@@ -31,7 +31,6 @@ public class Dropdown {
         WebElement userprofile = driver.findElement(By.xpath("//img[@alt='profile picture']"));
         userprofile.click();
 
-
         List<WebElement> menuItems = driver.findElements(By.xpath("//ul[@class='oxd-dropdown-menu']//li"));
         System.out.println("Total items found: " + menuItems.size());
 
